@@ -35,3 +35,14 @@ window.addEventListener("keydown", function (evt) {
         }
     }
 });
+
+
+
+
+var Loginlinkfooter = document.querySelector(".login-link-footer-1");
+
+Loginlinkfooter.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    loginpopup.classList.add("modal-show");
+    loginlogin.focus();
+});
